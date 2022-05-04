@@ -1,0 +1,3 @@
+<template>
+  <NewsPage />
+</template>
