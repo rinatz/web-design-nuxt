@@ -2,8 +2,12 @@
   <div>
     <div id="menu" class="big-bg">
       <HeaderContent />
-      <div class="wrapper">
+      <div class="menu-content wrapper">
         <h2 class="page-title">Menu</h2>
+        <p>
+          体に優しい自然食を提供する、WCB CAFE。無添加の食材を利用したメニューが特徴です。
+          おいしいブレンドコーヒーとヘルシーなオーガニックフードで体の内側から癒やされてください。
+        </p>
       </div>
     </div>
 
@@ -14,17 +18,8 @@
 
 <style scoped>
 #menu {
-  background-image: url("/img/menu9.jpeg");
-  height: 270px;
-  margin-bottom: 40px;
-}
-
-#menu .page-title {
-  text-transform: uppercase;
-  font-size: 5rem;
-  font-family: "Philosopher", serif;
-  font-weight: normal;
-  text-align: center;
+  background-image: url("/img/menu-bg.jpeg");
+  min-height: 100vh;
 }
 
 .big-bg {
@@ -33,10 +28,23 @@
   background-repeat: no-repeat;
 }
 
+.menu-content {
+  max-width: 560px;
+  margin-top: 10%;
+}
+
+.page-title {
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-family: "Philosopher", serif;
+  font-weight: normal;
+  text-align: center;
+}
+
 @media (max-width: 600px) {
-  #menu .page-title {
+  .page-title {
     font-size: 2.5rem;
-    margin-top: 30px;
+    margin-top: 20%;
   }
 }
 </style>

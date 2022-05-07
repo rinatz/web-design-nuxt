@@ -11,7 +11,6 @@ footer {
   background: #432;
   text-align: center;
   padding: 26px 0;
-  margin-top: 50px;
 }
 
 footer p {
