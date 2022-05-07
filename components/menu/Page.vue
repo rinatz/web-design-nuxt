@@ -1,3 +1,9 @@
+<script setup lang="ts">
+useHead({
+  title: "Menu",
+});
+</script>
+
 <template>
   <div>
     <div id="menu" class="big-bg">

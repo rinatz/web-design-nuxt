@@ -1,3 +1,9 @@
+<script setup lang="ts">
+useHead({
+  title: "News",
+});
+</script>
+
 <template>
   <div>
     <div id="news" class="big-bg">

@@ -1,6 +1,9 @@
 <script setup lang="ts">
+const route = useRoute();
+
 useHead({
-  titleTemplate: "WCB Cafe",
+  title: "Home",
+  titleTemplate: "WCB Cafe - %s",
   meta: [
     { name: "description", content: "ブレンドコーヒーとヘルシーなオーガニックフードを提供するカフェ" },
     { name: "msapplication-TileColor", content: "#da532c" },
