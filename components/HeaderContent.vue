@@ -10,7 +10,7 @@
       <ul class="page-header__nav">
         <li><a href="/news">News</a></li>
         <li><a href="/menu">Menu</a></li>
-        <li><a href="#">Content</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
