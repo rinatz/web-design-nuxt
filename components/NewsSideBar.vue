@@ -25,7 +25,7 @@
 }
 
 aside {
-  width: 22%;
+  width: 20%;
 }
 
 aside p {

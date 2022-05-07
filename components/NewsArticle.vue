@@ -22,7 +22,7 @@
 
 <style scoped>
 article {
-  width: 74%;
+  width: 50%;
 }
 
 .post-info {

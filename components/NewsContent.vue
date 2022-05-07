@@ -1,7 +1,8 @@
 <template>
   <div class="news-contents wrapper">
-    <NewsArticle />
-    <NewsSideBar />
+    <NewsArticle class="article" />
+    <NewsSideBar class="aside" />
+    <img class="ad" src="~/assets/img/wagashi.jpeg" alt="新メニュー登場" />
   </div>
 </template>
 
@@ -16,5 +17,17 @@
   .news-contents {
     flex-direction: column;
   }
+}
+
+.ad {
+  order: 1;
+}
+
+.article {
+  order: 2;
+}
+
+.aside {
+  order: 3;
 }
 </style>
