@@ -6,7 +6,7 @@
       <p class="post-cat">カテゴリー: お店の紹介</p>
     </header>
 
-    <img src="~/assets/img/shop.jpeg" />
+    <img src="/img/shop.jpeg" />
 
     <p>
       体に優しい自然食を提供する、WCB CAFE。無添加の食材を利用したメニューが特徴です。

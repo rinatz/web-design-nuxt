@@ -2,7 +2,7 @@
   <div class="news-contents wrapper">
     <NewsArticle class="article" />
     <NewsSideBar class="aside" />
-    <img class="ad" src="~/assets/img/wagashi.jpeg" alt="新メニュー登場" />
+    <img class="ad" src="/img/wagashi.jpeg" alt="新メニュー登場" />
   </div>
 </template>
 

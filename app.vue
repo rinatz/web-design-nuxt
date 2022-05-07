@@ -1,19 +1,25 @@
+<script setup lang="ts">
+useHead({
+  titleTemplate: "WCB Cafe",
+  meta: [
+    { name: "description", content: "ブレンドコーヒーとヘルシーなオーガニックフードを提供するカフェ" },
+    { name: "msapplication-TileColor", content: "#da532c" },
+    { name: "theme-color", content: "#ffffff" },
+  ],
+  link: [
+    { rel: "icon", type: "image/x-icon", href: "/favicon/favicon.ico" },
+    { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon/favicon-32x32.png" },
+    { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon/favicon-16x16.png" },
+    { rel: "apple-touch-icon", sizes: "180x180", href: "/favicon/apple-touch-icon.png" },
+    { rel: "manifest", href: "/favicon/site.webmanifest" },
+    { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#5bbad5" },
+    { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Philosopher" },
+  ],
+});
+</script>
+
 <template>
   <div>
-    <Head>
-      <Title>WCB Cafe</Title>
-      <Meta name="description" content="ブレンドコーヒーとヘルシーなオーガニックフードを提供するカフェ" />
-      <Meta name="msapplication-TileColor" content="#da532c" />
-      <Meta name="theme-color" content="#ffffff" />
-      <Meta name="viewport" content="with=device-width, initial-scale=1" />
-      <Link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Philosopher" />
-      <Link rel="apple-touch-icon" sizes="180x180" href="~/assets/favicon/apple-touch-icon.png" />
-      <Link rel="icon" type="image/png" sizes="32x32" href="~/assets/favicon/favicon-32x32.png" />
-      <Link rel="icon" type="image/png" sizes="16x16" href="~/assets/favicon/favicon-16x16.png" />
-      <!-- <Link rel="manifest" href="~/assets/favicon/site.webmanifest" /> -->
-      <Link rel="mask-icon" href="~/assets/favicon/safari-pinned-tab.svg" color="#5bbad5" />
-    </Head>
-
     <NuxtPage />
   </div>
 </template>

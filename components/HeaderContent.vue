@@ -2,14 +2,14 @@
   <header class="page-header wrapper">
     <h1>
       <a href="/">
-        <img class="page-header__logo" src="~/assets/img/logo.png" alt="ロゴ" />
+        <img class="page-header__logo" src="/img/logo.png" alt="ロゴ" />
       </a>
     </h1>
 
     <nav>
       <ul class="page-header__nav">
         <li><a href="/news">News</a></li>
-        <li><a href="#">Menu</a></li>
+        <li><a href="/menu">Menu</a></li>
         <li><a href="#">Content</a></li>
       </ul>
     </nav>

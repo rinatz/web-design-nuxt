@@ -1,23 +1,25 @@
 <template>
-  <div id="news" class="big-bg">
-    <HeaderContent />
-    <div class="wrapper">
-      <h2 class="page-title">News</h2>
+  <div>
+    <div id="menu" class="big-bg">
+      <HeaderContent />
+      <div class="wrapper">
+        <h2 class="page-title">Menu</h2>
+      </div>
     </div>
-  </div>
 
-  <NewsContent />
-  <FooterContent />
+    <MenuContent />
+    <FooterContent />
+  </div>
 </template>
 
 <style scoped>
-#news {
-  background-image: url("~/assets/img/coffee2.jpeg");
+#menu {
+  background-image: url("/img/menu9.jpeg");
   height: 270px;
   margin-bottom: 40px;
 }
 
-#news .page-title {
+#menu .page-title {
   text-transform: uppercase;
   font-size: 5rem;
   font-family: "Philosopher", serif;
@@ -32,7 +34,7 @@
 }
 
 @media (max-width: 600px) {
-  #news .page-title {
+  #menu .page-title {
     font-size: 2.5rem;
     margin-top: 30px;
   }
