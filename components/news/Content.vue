@@ -13,21 +13,35 @@
   margin-bottom: 50px;
 }
 
-@media (max-width: 600px) {
-  .news-contents {
-    flex-direction: column;
-  }
-}
-
-.ad {
-  order: 1;
-}
-
 .article {
   order: 2;
 }
 
 .aside {
   order: 3;
+}
+
+.ad {
+  order: 1;
+}
+
+@media (max-width: 600px) {
+  .news-contents {
+    flex-direction: column;
+  }
+
+  .article {
+    order: 1;
+  }
+
+  .aside {
+    order: 2;
+  }
+
+  .ad {
+    order: 3;
+    max-height: 250px;
+    object-fit: cover;
+  }
 }
 </style>

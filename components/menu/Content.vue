@@ -50,7 +50,7 @@ const items = [
   }
 
   .big-box img {
-    height: 100%;
+    height: 85%;
   }
 }
 </style>
