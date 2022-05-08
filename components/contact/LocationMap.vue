@@ -45,6 +45,20 @@
 }
 
 iframe {
-  widows: 100%;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  #location .wrapper {
+    flex-direction: column;
+  }
+
+  .location-info {
+    width: 100%;
+  }
+
+  .location-map {
+    width: 100%;
+  }
 }
 </style>
