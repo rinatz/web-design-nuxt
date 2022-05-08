@@ -38,4 +38,11 @@ useHead({
   font-weight: normal;
   text-align: left;
 }
+
+@media (max-width: 600px) {
+  #contact .page-title {
+    font-size: 2.5rem;
+    margin-top: 30px;
+  }
+}
 </style>

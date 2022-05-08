@@ -2,28 +2,24 @@
 onMounted(() => {
   const script = document.createElement("script");
   script.setAttribute("src", "https://platform.twitter.com/widgets.js");
-  document.getElementById("twitter").appendChild(script);
+  document.getElementById("twitter-widget").appendChild(script);
 });
 </script>
 
 <template>
   <section id="sns">
     <div class="wrapper">
-      <div class="sns-box">
+      <div class="twitter">
         <h3 class="sub-title">Twitter</h3>
         <a class="twitter-timeline" data-height="315" href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw">
           Tweets by TwitterJP
         </a>
-        <div id="twitter"></div>
+        <div id="twitter-widget"></div>
       </div>
 
-      <div class="sns-box">
-        <h3 id="youtube" class="sub-title">YouTube</h3>
-        <iframe
-          title="YouTube video player"
-          src="https://www.youtube.com/embed/nYYpxy5utbM"
-          width="560"
-          height="315"
+      <div class="youtube">
+        <h3 class="sub-title">YouTube</h3>
+        <iframe title="YouTube video player" src="https://www.youtube.com/embed/nYYpxy5utbM" width="560" height="315"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen>
@@ -50,11 +46,27 @@ onMounted(() => {
   border-bottom: 2px #0bd solid;
 }
 
-.sns-box {
-  width: 30%;
+.twitter {
+  flex-grow: 1;
 }
 
-#youtube {
-  width: 560px;
+.youtube {
+  flex-grow: 2;
+}
+
+.youtube iframe {
+  width: 100%;
+}
+
+.youtube iframe {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  #sns .wrapper {
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 </style>
