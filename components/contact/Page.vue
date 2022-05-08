@@ -20,6 +20,8 @@ useHead({
 <style scoped>
 #contact {
   background-image: url("/img/cat.jpeg");
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.3);
   min-height: 100vh;
 }
 
